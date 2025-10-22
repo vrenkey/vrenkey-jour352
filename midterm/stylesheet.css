@@ -1,0 +1,147 @@
+/*This is code provided by Google Fonts, which properly styles my linked "DM Serif Display" font.*/
+
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*The content section centers and organizes my entire webpage, creating unity and consistency.*/
+
+#content{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.masthead {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 1000;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#headline {
+    font-size: 50px;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+#byline-block {
+    text-align: center;
+}
+
+.byline {
+    font-size: 25px;
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.author-date {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #555;
+}
+
+.subheading {
+    display: inline-block;
+    border-bottom: 1.5px solid #555;
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.caption {
+    font-size: 12.5px;
+    color: #555;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.large-image {
+    width: 80vw;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.image1{
+    width:100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.image3{
+    width:100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.image4{
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.image7{
+    width:100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.pull-quote {
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #111;
+    border-left: 4px solid #ccc;
+    padding-left: 20px;
+    margin: 30px 0;
+    line-height: 1.6;
+}
+
+#related-items {
+    font-family: "DM Serif Display", serif;
+    font-size: 28px;
+    padding: 5px;
+    margin-bottom: 10;
+}
+
+#story-links {
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    margin-top: 0px;
+    color: #555;
+}
