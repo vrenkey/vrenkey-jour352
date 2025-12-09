@@ -1,0 +1,291 @@
+/* Google Fonts */
+
+.quantico-regular {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quantico-bold {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quantico-regular-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.quantico-bold-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Navbar Styling */
+
+/* Hero Styling */
+
+.hero {
+    min-height: 500vh;
+    background-image: url('hero background.png'); 
+    background-size: cover;        
+    background-position: center; 
+    background-attachment: fixed;  
+    position: relative;             
+    color: rgb(255, 255, 255);                 
+    padding-top: 1px;
+    box-sizing: border-box;
+}
+
+.info-box {
+    background-color: #f7a623;
+    color: black;
+    padding: 0.75rem 1rem;
+    font-family: "Quantico", sans-serif;
+    font-size: 1.3rem;
+    max-width: 380px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    position: absolute;
+    z-index: 2;
+}
+
+.box-top-left {
+    top: 26vh;
+    left: 12%;
+}
+
+.box-middle-right {
+    top: 156vh;
+    right: 16%;
+}
+
+.box-bottom-left {
+    top: 270vh;
+    left: 12%;
+}
+
+.hero-bottom {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    top: 160vh;
+}
+
+/* Main Content */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    font-size: 13px;
+}
+
+.author {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.date {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.subheading {
+    display: inline-block;
+    background: linear-gradient(90deg, #f7a623 0%, #f7a623 50%, #f7a62300 100%);
+    padding: 0.5rem 1rem;
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+/* Black Backgroud sections */
+
+.container-graph {
+    background-color: white;
+    padding: 5%;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.container-quote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.black-background-one {
+    background-color: #000000;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.25rem;
+    padding-bottom: 6.25rem;
+}
+
+.black-background-two {
+    background-color: #000000;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.25rem;
+}
+
+.trump-meme-coins {
+    margin-top: 4rem;
+}
+
+.pull-quote-black {
+  position: relative;
+  padding: 1.2rem 1rem;
+  border-top: 4px solid #e99d32;
+  border-bottom: 4px solid #e99d32;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quote-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.pull-quote-black blockquote {
+  margin: 0;
+  font-family: "Quantico", sans-serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+/* Pull-Quotes */
+
+.pull-quote {
+  position: relative;
+  padding: 1.2rem 1rem;
+  border-top: 4px solid #e99d32;
+  border-bottom: 4px solid #e99d32;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quote-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.pull-quote blockquote {
+  margin: 0;
+  font-family: "Quantico", sans-serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: black;
+}
+
+/* Images */
+
+.image2{
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.image1{
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.image4 {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.image5 {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.image3{
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.image6{
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.caption {
+    font-size: 12.5px;
+    color: #555;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Media Quieries */
+
+@media screen and (max-width: 768px) {
+    .faces-img {
+        content: url(hero\ transparent\ background\ small.png);
+    }
+
+    .hero {
+        min-height: 460vh;
+    }
+
+    .trump-caption {
+        content: url(trump\ caption\ section\ small.png)
+    }
+}
